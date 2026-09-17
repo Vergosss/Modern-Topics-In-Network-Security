@@ -1,3 +1,2 @@
 # Modern Topics In Network Security
-Modern Topics In Network Security Lab reports (including screenshots of server configuration, iptables rules, fail2ban configurations and BIND DNS server implementation).
-Additionally python code to implement port scanning, DOS attack and DNS cache poisoning attack is included.
+The aim of each lab exercise is to progressively introduce someone to debian server hardening techniques and security principles. In the final lab exercise (exercise 5), i secure the server with tools such as iptables and Fail2ban and i implement a custom DNS server with BIND to resolve the **example.com** to a University of Patra's IP address. To evaluate the effectiveness of the above configurations , i run a series of tests against the **VM** using **Nmap** and Python based port scanning, **DoS** attack python scripts and a **DNS cache poisoning** attempt using Python. The related web traffic is monitored and analyzed using **tcpdump**.  
